@@ -1,0 +1,35 @@
+.trip-card__container {
+  margin: 2em auto;
+  width: 80vw;
+
+  .trip-card__container-content {
+    display: flex;
+    font-family: $main-text;
+  }
+
+  .trip-card__img {
+    border-radius: 5px;
+    margin: 1em;
+    object-fit: cover;
+    width: 25%;
+  }
+
+  .fa-location-dot {
+    color: #F55A5A;
+    padding-right: .5em;
+  }
+
+  .trip-card__link {
+    color: #918E9B;
+    font-size: .8em;
+    margin-left: 1em;
+  }
+
+  .trip-card__header {
+    font-weight: bold;
+  }
+
+  .trip-card__dates {
+    font-size: 1em;;
+  }
+}

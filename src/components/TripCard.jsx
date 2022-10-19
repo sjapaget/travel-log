@@ -1,13 +1,22 @@
 const TripCard = (props) => {
   return (
     <div className="trip-card__container">
-      <img src={props.imageUrl} alt=""/>
-      <section className="trip-card__info">
-        <p>{props.location} <a href={props.googleMapsUrl}></a></p>
-        <h1>{props.title}</h1>
-        <h4>{props.startDate} - {props.endDate}</h4>
-        <p>{props.description}</p>
-      </section>
+      <div className="trip-card__container-content">
+        <img className="trip-card__img" src={props.imageUrl} alt=""/>
+        <section>
+          <p>
+            <i className="fa-solid fa-location-dot"></i>
+            {props.location.toUpperCase()}
+            <a className="trip-card__link" href={props.googleMapsUrl}>
+              View on Google Maps
+            </a>
+          </p>
+          <h1 className=".trip-card__header">{props.title}</h1>
+          <h4 className=".trip-card__header .trip-card__dates">{props.startDate} - {props.endDate}</h4>
+          <p>{props.description}</p>
+        </section>
+      </div>
+      <hr />
     </div>
   )
 }
