@@ -2,10 +2,10 @@ import logoSrc from "../assets/logo.png"
 
 const Navbar = (props) => {
   return (
-    <div>
-      <img src={logoSrc} />
-      <h1>{props.pageTitle}</h1>
-    </div>
+    <nav class="navbar">
+      <img className="navbar__logo" src={logoSrc} />
+      <h1 className="navbar__title">{props.pageTitle}</h1>
+    </nav>
   )
 };
 

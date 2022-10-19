@@ -1,3 +1,20 @@
-body {
-  background: blue
+.navbar {
+  background-color: #F55A5A;
+  display: flex;
+  height: 4vh;
+  justify-content: center;
+  padding: 1em;
+
+
+  .navbar__logo {
+    object-fit: contain;
+    filter: brightness(0) invert(1); //switches img from black to white
+  }
+
+  .navbar__title {
+    align-self: center;
+    color: #FFFFFF;
+    font-family: $title-font;
+    margin: .5em;
+  }
 }
