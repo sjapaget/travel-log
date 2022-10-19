@@ -26,4 +26,4 @@ export default [
     description: "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.",
     imageUrl: "https://lh5.googleusercontent.com/p/AF1QipO1SBea_TAcD7HRdesG9CCMRk00Q8BZe_OIklEQ=w426-h240-k-no"
   },
-]
+];
