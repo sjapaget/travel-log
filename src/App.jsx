@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar.jsx"
+import Navbar from "./components/Navbar.jsx";
 
 const App = () => {
   return (
@@ -6,6 +6,6 @@ const App = () => {
       <Navbar pageTitle="Travel Log" />
     </div>
   )
-}
+};
 
-export default App
+export default App;
