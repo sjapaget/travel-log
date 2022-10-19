@@ -19,6 +19,6 @@ const TripCard = (props) => {
       <hr />
     </div>
   )
-}
+};
 
-export default TripCard
+export default TripCard;
